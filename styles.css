@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Joan&family=Roboto&display=swap');
+
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: normal;
+    background: #D1DDED ;
+    color: #0f141e;
+}
+
+a{
+    color: #E2F3F6;
+    text-decoration: none;
+    border: 5px solid #86898f;
+    border-radius: 50%;
+    background: #86898f;
+
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+.info{
+    margin-bottom: 35px;
+    display: flex;
+    
+
+}
+
+.info-text{
+    margin-left: 45px;
+}
+
+@media (max-width:605px) {
+    .info{
+        display: block;
+        text-align: center;
+    }
+}
+
+.avatar{
+    width: 200px;
+    border-radius: 30px;
+    box-shadow: 5px 5px 15px grey;
+}
+
+.contianer{
+    max-width: 750px;
+    margin: auto;
+    padding-top: 30px ;
+}
+
+
+.info-text p{
+    font-style: italic;
+    font-weight: bold;
+    color:#86898f ;
+
+}
+
+.info-text h4{
+    margin-bottom: 15px;
+}
+
+.card{
+    border: 2px solid #86898f;
+    border-radius: 25px;
+    background: #E2F3F6;
+    padding: 15px 25px;
+    margin-bottom: 20px;
+}
+
+.card h2{
+    margin-bottom: 10px;
+}
+
+.btn{
+    background: #E2F3F6;
+    padding: 15px 20px;
+    color: #86898f;
+    font-family: inherit;
+    cursor: pointer;
+}
+
+.btn:hover{
+    opacity: 0.8;
+}
+
+.list{
+    padding: 5px 20px;
+    list-style: none;
+}
+
+.list li{
+    margin-bottom: 10px;
+    border-bottom: 3px dashed #ccc;
+}
+
+
+.table{
+    width: 100%;
+
+}
+
+.table td{
+    padding-bottom: 10px;
+}
+
+.table td:nth-child(3){
+    color: lightslategray;
+}
+
+
+.form h2{
+    text-align: center;
+}
+
+
+.form-group label{
+    display: block;
+    font-size: 14px;
+    background: #D1DDED;
+
+}
+
+
+.form-group input,
+.form-group textarea{
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    color: #111;
+    padding: 15px 0px 10px;
+    outline: none;
+    font-family: inherit;
+}
